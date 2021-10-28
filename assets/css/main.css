@@ -10,7 +10,7 @@ body {
 
 main {
     width: 100%;
-    height: 640px;
+    height: 700px;
     background-color: #f0f2f5;
 }
 
@@ -25,21 +25,24 @@ img {
 
 #pres {
     position: absolute;
-    left: 10%;
-    top: 30%;
+    left: 22%;
+    top: 17%;
     width: 45%;
 }
 
 #p_pres {
     padding: 0 25px;
-    width: 85%;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
 }
 
 #log {
     width: 45%;
     position: absolute;
     right: 0;
-    top: 22%;
+    top: 18%;
 }
 
 h2 {
@@ -123,10 +126,9 @@ form hr {
 
 #log p {
     text-align: center;
-    font-size: 12px;
-    margin: 5%;
-    margin-left: 8%;
-    width: 50%;
+    font-size: 14px;
+    margin: 15px 4px;
+    width: 396px;
 }
 
 #log>p>a {
@@ -135,5 +137,29 @@ form hr {
 }
 
 #log>p>a:hover {
+    text-decoration: underline;
+}
+
+footer div {
+    width: 50%;
+    color: #98989d;
+    margin: 30px 25%;
+    font-size: 12px;
+    line-height: 25px;
+}
+
+footer div hr {
+    background-color: rgba(152, 156, 157, 0.51);
+    height: 1px;
+    border: none;
+}
+
+footer div a {
+    color: #98989d;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+footer div a:hover {
     text-decoration: underline;
 }
